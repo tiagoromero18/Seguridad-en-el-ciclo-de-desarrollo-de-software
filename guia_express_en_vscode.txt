@@ -1,0 +1,24 @@
+1) ir al archivo donde se va a usar el express js
+2) npm init -y
+3) copiar el siguiente codigo
+   {
+  "name": "seguridad-en-el-ciclo-de-desarrollo-de-software",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "devstar": "nodemon torneo.js" , 
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+  }
+4) Luego vas a poner en la consola npm i --save-dev nodemon
+5) Crear un NOMBRE_DE_ARCHIVO.js y en el json en la parte scripts copiar
+   "devstar": "nodemon NOMBRE_DE_ARCHIVO.js" 
+6) en consola poner npm run devstar
+7) 
